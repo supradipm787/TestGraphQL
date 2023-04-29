@@ -1,9 +1,11 @@
 arr1 = [1,2,3,4]
 arr2 = [5,6,7]
 
+//... Spread operator to break the array
 arr3 = [...arr1, ...arr2]
 
-//console.log('arr3',arr3);
+//` backtick is given to include expression
+console.log(`arr3 testing is ${arr3}`);
 i =0 ;
 console.log (arr3[4]);
 
@@ -20,9 +22,9 @@ userThree = {...userTwo, name:'Supra', gender:'male'}
 
 console.log ('userone', userOne);
 //console.log ('usertwo', userTwo);
-//console.log ('userthree',userThree );
+console.log ('userthree',userThree );
 
-//assign values of objects
+//assign values of objects {} represents empty object
 userFour = {};
 Object.assign (userFour, userOne);
 console.log ('userFour',userFour );
